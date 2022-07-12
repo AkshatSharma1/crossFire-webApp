@@ -311,7 +311,7 @@ import io from "socket.io-client";
 import UpdateGroupChatModal from "./InAppComp/UpdateGroupModal";
 import { ChatState } from "../context/ChatProvider";
 // const ENDPOINT = "http://localhost:5000"; 
-const ENDPOINT = "https://crossfire-webapp.herokuapp.com/"; //After deployment
+const ENDPOINT = "https://crossfire-webapp-mern.herokuapp.com/"; //After deployment
 
 
 var socket, selectedChatCompare;
