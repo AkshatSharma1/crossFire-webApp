@@ -1,0 +1,35 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+ 
+.balls{
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.ball{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blanchedalmond;
+  margin-right: 2px;
+  animation: ball .5s ease infinite alternate;
+}
+
+.ball2{
+  animation-delay: 0.1s;
+}
+
+.ball3{
+  animation-delay: 0.2s;
+}
+
+@keyframes ball{
+  to{
+    transform: translateY(-5px);
+  }
+}
